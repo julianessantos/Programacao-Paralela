@@ -3,7 +3,7 @@
 #include <time.h>
 #include <sys/time.h>
 
-#define N 2000  // Tamanho desejado
+#define N 2000 
 
 int matrix[N][N];
 int vetor[N];
