@@ -7,7 +7,7 @@ int main() {
     int i, n = 10000000;
     int count = 0;
 
-    srand(time(NULL)); // semente fora da região paralela
+    srand(time(NULL)); //
 
     #pragma omp parallel for
     for (i = 0; i < n; i++) {
