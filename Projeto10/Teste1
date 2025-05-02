@@ -1,0 +1,12 @@
+teste@pc27:~/Documentos/Progamação Paralela (25.1)/2504/juju$ ./projeto10_1v
+Versão 1 - rand_r() + atomic
+Pi estimado: 3.141669
+Tempo: 0.172077 segundos
+teste@pc27:~/Documentos/Progamação Paralela (25.1)/2504/juju$ ./projeto10_2v
+Versão 2 - rand_r() + reduction
+Pi estimado: 3.141669
+Tempo: 0.219218 segundos
+teste@pc27:~/Documentos/Progamação Paralela (25.1)/2504/juju$ ./projeto10_3v
+Versão 3 - rand_r() + critical
+Pi estimado: 3.141669
+Tempo: 0.195047 segundos

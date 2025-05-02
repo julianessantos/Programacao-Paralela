@@ -1,0 +1,7 @@
+mecanismos de sincronização
+
+#pragma omp critical 
+- exclusão mútua: apenas uma thread pode entrar por vez
+
+#pragma omp critical (nome)  com o nome podemos diferenciar os blocos, já que as vezes é bom diferenciar um critical de outro
+por exemplo uma thread com uma variavel x e outra com y, podemos criar um citrical para cada
